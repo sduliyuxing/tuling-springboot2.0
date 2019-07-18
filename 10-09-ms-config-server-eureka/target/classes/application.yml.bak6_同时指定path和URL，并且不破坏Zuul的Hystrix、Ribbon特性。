@@ -1,0 +1,49 @@
+server:
+  port: 8040
+spring:
+  application:
+    name: microservice-gateway-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://biege:123@127.0.0.1:8761/eureka,http://biege:123@127.0.0.1:8762/eureka,http://biege:123@127.0.0.1:8763/eureka
+  instance:
+    prefer-ip-address: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+zuul:
+  routes:
+    user-route:
+      path: /user/**
+      service-id: microservice-provider-user
+ribbon:
+  eureka:
+    enabled: false    # 禁用掉ribbon的eureka使用
+microservice-provider-user:
+  ribbon:
+    listOfServers: localhost:8001,localhost:8002
+
+
+################################################################################
+#   测试过程:
+#     访问 zuul 的映射规则
+#              http://192.168.200.1:8040/actuator/routes
+#              结果:
+#                    {
+#                          /user/**: "microservice-provider-user",
+#                          /microservice-eureka-server-ha/**: "microservice-eureka-server-ha",
+#                          /microservice-consumer-order/**: "microservice-consumer-order",
+#                          /microservice-provider-user/**: "microservice-provider-user"
+#                    }
+#     都可以后,测试通过zuul网关访问user服务:
+#          http://192.168.200.1:8040/user/1  可以获取数据
+#          http://192.168.200.1:8040/microservice-provider-user/1  可以获取数据
+#     访问user服务的getIpAndPort方法
+#           http://192.168.200.1:8040/microservice-provider-user/getIpAndPort
+#           http://192.168.200.1:8040/user/getIpAndPort
+#           可以做负载均衡,但是利用Ribbon特性,只能在8001和8002端口做负载均衡,因为8003端口没有配置

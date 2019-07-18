@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/01-01-springboot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01-02-springboot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/01-03-springboot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-01-ms-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-02-ms-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/03-03-vip-springboot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-01-eureka-server-1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-01-eureka-server-2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-01-eureka-server-3" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-02-ms-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/04-03-ms-order" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-01-ms-provider-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-02-ms-consumer-order-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-03-ms-consumer-order-ribbon-customizing" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-04-ms-consumer-order-ribbon-customizing-properties" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-05-ms-consumer-order-ribbon-without-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-06-ms-consumer-order-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-07-ms-provider-user-api" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-08-ms-provider-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/05-09-ms-consumer-order-feign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-01-ms-provider-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-02-ms-consumer-order-ribbon-hystrix-customizing" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-03-ms-consumer-order-ribbon-hystrix-fallback" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-04-ms-consumer-order-ribbon-hystrix-fusing" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/06-05-ms-consumer-order-ribbon-hystrix-thread-isolation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-01-ms-provider-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-02-ms-consumer-order-feign-hystrix-fallback" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-03-ms-consumer-order-feign-disable-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-04-ms-consumer-order-hystrix-stream" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-05-ms-hystrix-dashboard" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/07-06-ms-hystrix-turbine" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-01-ms-provider-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-02-ms-springboot-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/08-03-ms-eureka-server-ha" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-01-ms-provider-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-02-ms-consumer-order-ribbon" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-03-ms-gateway-zuul" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-04-ms-gateway-zuul-aggregation" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-05-ms-gateway-zuul-filter" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/09-06-ms-gateway-zuul-fallback" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-01-ms-config-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-02-ms-config-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-03-ms-config-server-encryption" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-04-ms-config-client-refresh" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-05-ms-config-server-refresh-cloud-bus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-06-ms-config-client-refresh-cloud-bus" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-07-ms-config-server-authenticating" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-08-ms-config-client-authenticating" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-09-ms-config-server-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/10-10-ms-config-client-eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/11-01-ms-simple-provider-user-trace" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/11-02-ms-trace-zipkin-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/11-03-ms-simple-provider-user-trace-zipkin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/11-04-ms-simple-consumer-order-trace-zipkin" charset="UTF-8" />
+  </component>
+</project>

@@ -1,0 +1,23 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: microservice-consumer-order
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://biege:123@127.0.0.1:8761/eureka,http://biege:123@127.0.0.1:8762/eureka,http://biege:123@127.0.0.1:8763/eureka
+    registry-fetch-interval-seconds: 3  # 每隔3秒 会重新获取并更新数据,开发阶段,服务消费方修改此值
+  instance:
+    prefer-ip-address: true
+
+
+hystrix:
+  command:
+    default:
+      circuitBreaker:
+        requestVolumeThreshold: 3   # 默认20次
+        sleepWindowInMilliseconds: 10000  # 默认5000毫秒
+
+
+

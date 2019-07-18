@@ -1,0 +1,27 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: microservice-consumer-order
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://biege:123@127.0.0.1:8761/eureka,http://biege:123@127.0.0.1:8762/eureka,http://biege:123@127.0.0.1:8763/eureka
+    registry-fetch-interval-seconds: 3  # 每隔3秒 会重新获取并更新数据,开发阶段,服务消费方修改此值
+  instance:
+    prefer-ip-address: true
+
+
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 20000  # 默认为1000毫秒,
+            # 因为服务提供方 要用 Thread.sleep(3000); 模拟系统执行速度很慢的情况
+            # 来测试 Hystrix 限流, 线程资源隔离,所以为测试将它放大20秒,防止服务超时降级
+
+
+
+

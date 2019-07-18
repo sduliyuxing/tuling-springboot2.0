@@ -1,0 +1,59 @@
+server:
+  port: 8001
+spring:
+  application:
+    name: microservice-provider-user
+  jpa:
+    generate-ddl: false
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  datasource:                           # 指定数据源
+    platform: h2                        # 指定数据源类型
+    schema: classpath:schema.sql        # 指定h2数据库的建表脚本
+    data: classpath:data.sql            # 指定h2数据库的数据脚本
+  boot:
+    admin:
+      client:
+        url:  http://localhost:9999
+
+logging:  # 配置日志级别，让hibernate打印出执行的SQL
+  level:
+    root: INFO
+    org.hibernate: INFO
+    org.hibernate.type.descriptor.sql.BasicBinder: INFO
+    org.hibernate.type.descriptor.sql.BasicExtractor: INFO
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://biege:123@eureka8761.com:8761/eureka,http://biege:123@eureka8762.com:8762/eureka,http://biege:123@eureka8763.com:8763/eureka
+  instance:
+    prefer-ip-address: true
+    lease-renewal-interval-in-seconds: 3  # 3秒一次心跳,开发阶段,服务提供方修改此值
+    lease-expiration-duration-in-seconds: 5  # 5秒即过期,开发阶段,服务提供方修改此值
+
+#management:
+#  security:
+#    enabled: false  #关掉安全认证
+#  port: 8899  #管理端口调整成8888,独立的端口可以做安全控制
+#  context-path: /monitor  #actuator的访问路径
+#  health:
+#    mail:
+#      enabled: false
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  server:
+    port: 8889
+    servlet:
+      context-path: /monitor
+  health:
+    mail:
+      enabled: false
+  endpoint:
+    health:
+      show-details: never

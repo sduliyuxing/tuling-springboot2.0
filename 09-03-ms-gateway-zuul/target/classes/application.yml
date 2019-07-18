@@ -1,0 +1,42 @@
+server:
+  port: 8040
+spring:
+  application:
+    name: microservice-gateway-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://biege:123@127.0.0.1:8761/eureka,http://biege:123@127.0.0.1:8762/eureka,http://biege:123@127.0.0.1:8763/eureka
+  instance:
+    prefer-ip-address: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+zuul:
+  prefix: /api
+  routes:
+    microservice-provider-user: /user/**
+logging:
+  level:
+    com.netflix: DEBUG
+
+################################################################################
+#   测试过程:
+#     访问 zuul 的映射规则
+#              http://192.168.200.1:8040/actuator/routes
+#              结果:
+#                    {
+#                          /api/user/**: "microservice-provider-user",
+#                          /api/microservice-eureka-server-ha/**: "microservice-eureka-server-ha",
+#                          /api/microservice-consumer-order/**: "microservice-consumer-order",
+#                          /api/microservice-provider-user/**: "microservice-provider-user"
+#                    }
+#     都可以后,测试通过zuul网关访问user服务:
+#          http://192.168.200.1:8040/api/user/1  可以获取数据
+#          http://192.168.200.1:8040/api/microservice-provider-user/1  可以获取数据
+#          http://192.168.200.1:8040/api/microservice-consumer-order/user/1  可以获取数据
+

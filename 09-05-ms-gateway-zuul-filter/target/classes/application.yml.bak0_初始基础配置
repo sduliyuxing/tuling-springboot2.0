@@ -1,0 +1,35 @@
+server:
+  port: 8040
+spring:
+  application:
+    name: microservice-gateway-zuul
+eureka:
+  client:
+    service-url:
+      defaultZone: http://biege:123@127.0.0.1:8761/eureka,http://biege:123@127.0.0.1:8762/eureka,http://biege:123@127.0.0.1:8763/eureka
+  instance:
+    prefer-ip-address: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+
+
+################################################################################
+#   测试过程:而且
+#     访问user服务:  http://192.168.200.1:8001/1
+#     访问order服务: http://192.168.200.1:8010/user/1
+#     都可以后,测试通过zuul网关访问user/order服务:
+#           http://192.168.200.1:8040/microservice-provider-user/1
+#           http://192.168.200.1:8040/microservice-consumer-order/user/1
+#     访问user服务的getIpAndPort方法
+#           http://192.168.200.1:8040/microservice-provider-user/getIpAndPort
+#           发现还可以做负载均衡,底层通过ribbon做负载均衡
+#     zuul还整合的hystrix,访问stream监控数据
+#           http://192.168.200.1:8040/actuator/hystrix.stream
+#     访问 zuul 的映射规则
+#           http://192.168.200.1:8040/actuator/routes
+    

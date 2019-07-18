@@ -1,0 +1,18 @@
+server:
+  port: 8031
+spring:
+  application:
+    name: microservice-hystrix-turbine
+eureka:
+  client:
+    service-url:
+      defaultZone: http://biege:123@127.0.0.1:8761/eureka,http://biege:123@127.0.0.1:8762/eureka,http://biege:123@127.0.0.1:8763/eureka
+  instance:
+    prefer-ip-address: true
+turbine:
+  appConfig: microservice-consumer-order,microservice-consumer-order-hystrix-stream
+  clusterNameExpression: "'default'"
+
+# microservice-consumer-order 代表: 06-03-ms-consumer-order-ribbon-hystrix-fallback 项目 ,端口号:8010
+# microservice-consumer-order-hystrix-stream 代表: 07-04-ms-consumer-order-hystrix-stream 项目,端口号: 8020
+# turbine 聚合这两个 服务消费方.

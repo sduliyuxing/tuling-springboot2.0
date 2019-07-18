@@ -1,0 +1,57 @@
+server:
+  port: 12000
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+spring:
+  application:
+    name: microservice-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/bieshengping/tuling-springcloud-config-server.git      # 配置Git仓库的地址
+          username:                                                         # Git仓库的账号
+          password:                                                         # Git仓库的密码
+    bus:
+      trace:
+        enabled: true     # 开启cloud bus的跟踪
+  rabbitmq:
+    host: 192.168.200.148
+    port: 5672
+    username: guest
+    password: guest
+    
+#############################################
+#测试过程:
+# 配合 10-06-ms-config-client-refresh-cloud-bus 客户端
+# 服务端 启动一次,  端口号 12000
+#客户端启动两次,端口号  12001  12002
+#
+#访问: http://localhost:12001/profile
+#    显示: dev-1.0-change
+#
+#访问: http://localhost:12002/profile
+#    显示: dev-1.0-change
+#
+#
+#github上更改  tuling-springcloud-config-server/ms-config-dev.properties
+#将 profile=dev-1.0-change  更改为 profile=dev-1.0-change-change2,保存提交
+#
+#再次刷新
+#  访问: http://localhost:12001/profile
+#  访问: http://localhost:12002/profile
+#  并没有更改,还是显示  dev-1.0-change
+#
+#POST方式提交:  http://localhost:12000/actuator/bus-refresh  刷新服务端,与 SpringCloud 1.x 不同
+#    访问: http://localhost:12001/profile
+#    访问: http://localhost:12002/profile
+#    显示  dev-1.0-change-change2
+#
+#消息总线测试成功.
+
+

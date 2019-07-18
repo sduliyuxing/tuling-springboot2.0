@@ -1,0 +1,4 @@
+com\example\user\controller\OrderController.class
+com\example\ConsumerOrderApplication.class
+com\example\user\entity\User.class
+com\example\user\feign\UserFeignClient.class

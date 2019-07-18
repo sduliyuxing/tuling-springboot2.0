@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/01-01-springboot/01-01-springboot.iml" filepath="$PROJECT_DIR$/01-01-springboot/01-01-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-02-springboot/01-02-springboot.iml" filepath="$PROJECT_DIR$/01-02-springboot/01-02-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-03-springboot/01-03-springboot.iml" filepath="$PROJECT_DIR$/01-03-springboot/01-03-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-01-ms-user/03-01-ms-user.iml" filepath="$PROJECT_DIR$/03-01-ms-user/03-01-ms-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-02-ms-order/03-02-ms-order.iml" filepath="$PROJECT_DIR$/03-02-ms-order/03-02-ms-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/03-03-vip-springboot/03-03-vip-springboot.iml" filepath="$PROJECT_DIR$/03-03-vip-springboot/03-03-vip-springboot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-01-eureka-server-1/04-01-eureka-server-1.iml" filepath="$PROJECT_DIR$/04-01-eureka-server-1/04-01-eureka-server-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-01-eureka-server-2/04-01-eureka-server-2.iml" filepath="$PROJECT_DIR$/04-01-eureka-server-2/04-01-eureka-server-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-01-eureka-server-3/04-01-eureka-server-3.iml" filepath="$PROJECT_DIR$/04-01-eureka-server-3/04-01-eureka-server-3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-02-ms-user/04-02-ms-user.iml" filepath="$PROJECT_DIR$/04-02-ms-user/04-02-ms-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-03-ms-order/04-03-ms-order.iml" filepath="$PROJECT_DIR$/04-03-ms-order/04-03-ms-order.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-01-ms-provider-user/05-01-ms-provider-user.iml" filepath="$PROJECT_DIR$/05-01-ms-provider-user/05-01-ms-provider-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-02-ms-consumer-order-ribbon/05-02-ms-consumer-order-ribbon.iml" filepath="$PROJECT_DIR$/05-02-ms-consumer-order-ribbon/05-02-ms-consumer-order-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-03-ms-consumer-order-ribbon-customizing/05-03-ms-consumer-order-ribbon-customizing.iml" filepath="$PROJECT_DIR$/05-03-ms-consumer-order-ribbon-customizing/05-03-ms-consumer-order-ribbon-customizing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-04-ms-consumer-order-ribbon-customizing-properties/05-04-ms-consumer-order-ribbon-customizing-properties.iml" filepath="$PROJECT_DIR$/05-04-ms-consumer-order-ribbon-customizing-properties/05-04-ms-consumer-order-ribbon-customizing-properties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-05-ms-consumer-order-ribbon-without-eureka/05-05-ms-consumer-order-ribbon-without-eureka.iml" filepath="$PROJECT_DIR$/05-05-ms-consumer-order-ribbon-without-eureka/05-05-ms-consumer-order-ribbon-without-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-06-ms-consumer-order-feign/05-06-ms-consumer-order-feign.iml" filepath="$PROJECT_DIR$/05-06-ms-consumer-order-feign/05-06-ms-consumer-order-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-07-ms-provider-user-api/05-07-ms-provider-user-api.iml" filepath="$PROJECT_DIR$/05-07-ms-provider-user-api/05-07-ms-provider-user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-08-ms-provider-user/05-08-ms-provider-user.iml" filepath="$PROJECT_DIR$/05-08-ms-provider-user/05-08-ms-provider-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-09-ms-consumer-order-feign/05-09-ms-consumer-order-feign.iml" filepath="$PROJECT_DIR$/05-09-ms-consumer-order-feign/05-09-ms-consumer-order-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-01-ms-provider-user/06-01-ms-provider-user.iml" filepath="$PROJECT_DIR$/06-01-ms-provider-user/06-01-ms-provider-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-02-ms-consumer-order-ribbon-hystrix-customizing/06-02-ms-consumer-order-ribbon-hystrix-customizing.iml" filepath="$PROJECT_DIR$/06-02-ms-consumer-order-ribbon-hystrix-customizing/06-02-ms-consumer-order-ribbon-hystrix-customizing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-03-ms-consumer-order-ribbon-hystrix-fallback/06-03-ms-consumer-order-ribbon-hystrix-fallback.iml" filepath="$PROJECT_DIR$/06-03-ms-consumer-order-ribbon-hystrix-fallback/06-03-ms-consumer-order-ribbon-hystrix-fallback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-04-ms-consumer-order-ribbon-hystrix-fusing/06-04-ms-consumer-order-ribbon-hystrix-fusing.iml" filepath="$PROJECT_DIR$/06-04-ms-consumer-order-ribbon-hystrix-fusing/06-04-ms-consumer-order-ribbon-hystrix-fusing.iml" />
+      <module fileurl="file://$PROJECT_DIR$/06-05-ms-consumer-order-ribbon-hystrix-thread-isolation/06-05-ms-consumer-order-ribbon-hystrix-thread-isolation.iml" filepath="$PROJECT_DIR$/06-05-ms-consumer-order-ribbon-hystrix-thread-isolation/06-05-ms-consumer-order-ribbon-hystrix-thread-isolation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-01-ms-provider-user/07-01-ms-provider-user.iml" filepath="$PROJECT_DIR$/07-01-ms-provider-user/07-01-ms-provider-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-02-ms-consumer-order-feign-hystrix-fallback/07-02-ms-consumer-order-feign-hystrix-fallback.iml" filepath="$PROJECT_DIR$/07-02-ms-consumer-order-feign-hystrix-fallback/07-02-ms-consumer-order-feign-hystrix-fallback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-03-ms-consumer-order-feign-disable-hystrix/07-03-ms-consumer-order-feign-disable-hystrix.iml" filepath="$PROJECT_DIR$/07-03-ms-consumer-order-feign-disable-hystrix/07-03-ms-consumer-order-feign-disable-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-04-ms-consumer-order-hystrix-stream/07-04-ms-consumer-order-hystrix-stream.iml" filepath="$PROJECT_DIR$/07-04-ms-consumer-order-hystrix-stream/07-04-ms-consumer-order-hystrix-stream.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-05-ms-hystrix-dashboard/07-05-ms-hystrix-dashboard.iml" filepath="$PROJECT_DIR$/07-05-ms-hystrix-dashboard/07-05-ms-hystrix-dashboard.iml" />
+      <module fileurl="file://$PROJECT_DIR$/07-06-ms-hystrix-turbine/07-06-ms-hystrix-turbine.iml" filepath="$PROJECT_DIR$/07-06-ms-hystrix-turbine/07-06-ms-hystrix-turbine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-01-ms-provider-user/08-01-ms-provider-user.iml" filepath="$PROJECT_DIR$/08-01-ms-provider-user/08-01-ms-provider-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-02-ms-springboot-admin/08-02-ms-springboot-admin.iml" filepath="$PROJECT_DIR$/08-02-ms-springboot-admin/08-02-ms-springboot-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-03-ms-eureka-server-ha/08-03-ms-eureka-server-ha.iml" filepath="$PROJECT_DIR$/08-03-ms-eureka-server-ha/08-03-ms-eureka-server-ha.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-01-ms-provider-user/09-01-ms-provider-user.iml" filepath="$PROJECT_DIR$/09-01-ms-provider-user/09-01-ms-provider-user.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-02-ms-consumer-order-ribbon/09-02-ms-consumer-order-ribbon.iml" filepath="$PROJECT_DIR$/09-02-ms-consumer-order-ribbon/09-02-ms-consumer-order-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-03-ms-gateway-zuul/09-03-ms-gateway-zuul.iml" filepath="$PROJECT_DIR$/09-03-ms-gateway-zuul/09-03-ms-gateway-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-04-ms-gateway-zuul-aggregation/09-04-ms-gateway-zuul-aggregation.iml" filepath="$PROJECT_DIR$/09-04-ms-gateway-zuul-aggregation/09-04-ms-gateway-zuul-aggregation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-05-ms-gateway-zuul-filter/09-05-ms-gateway-zuul-filter.iml" filepath="$PROJECT_DIR$/09-05-ms-gateway-zuul-filter/09-05-ms-gateway-zuul-filter.iml" />
+      <module fileurl="file://$PROJECT_DIR$/09-06-ms-gateway-zuul-fallback/09-06-ms-gateway-zuul-fallback.iml" filepath="$PROJECT_DIR$/09-06-ms-gateway-zuul-fallback/09-06-ms-gateway-zuul-fallback.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-01-ms-config-server/10-01-ms-config-server.iml" filepath="$PROJECT_DIR$/10-01-ms-config-server/10-01-ms-config-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-02-ms-config-client/10-02-ms-config-client.iml" filepath="$PROJECT_DIR$/10-02-ms-config-client/10-02-ms-config-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-03-ms-config-server-encryption/10-03-ms-config-server-encryption.iml" filepath="$PROJECT_DIR$/10-03-ms-config-server-encryption/10-03-ms-config-server-encryption.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-04-ms-config-client-refresh/10-04-ms-config-client-refresh.iml" filepath="$PROJECT_DIR$/10-04-ms-config-client-refresh/10-04-ms-config-client-refresh.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-05-ms-config-server-refresh-cloud-bus/10-05-ms-config-server-refresh-cloud-bus.iml" filepath="$PROJECT_DIR$/10-05-ms-config-server-refresh-cloud-bus/10-05-ms-config-server-refresh-cloud-bus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-06-ms-config-client-refresh-cloud-bus/10-06-ms-config-client-refresh-cloud-bus.iml" filepath="$PROJECT_DIR$/10-06-ms-config-client-refresh-cloud-bus/10-06-ms-config-client-refresh-cloud-bus.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-07-ms-config-server-authenticating/10-07-ms-config-server-authenticating.iml" filepath="$PROJECT_DIR$/10-07-ms-config-server-authenticating/10-07-ms-config-server-authenticating.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-08-ms-config-client-authenticating/10-08-ms-config-client-authenticating.iml" filepath="$PROJECT_DIR$/10-08-ms-config-client-authenticating/10-08-ms-config-client-authenticating.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-09-ms-config-server-eureka/10-09-ms-config-server-eureka.iml" filepath="$PROJECT_DIR$/10-09-ms-config-server-eureka/10-09-ms-config-server-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/10-10-ms-config-client-eureka/10-10-ms-config-client-eureka.iml" filepath="$PROJECT_DIR$/10-10-ms-config-client-eureka/10-10-ms-config-client-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-01-ms-simple-provider-user-trace/11-01-ms-simple-provider-user-trace.iml" filepath="$PROJECT_DIR$/11-01-ms-simple-provider-user-trace/11-01-ms-simple-provider-user-trace.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-02-ms-trace-zipkin-server/11-02-ms-trace-zipkin-server.iml" filepath="$PROJECT_DIR$/11-02-ms-trace-zipkin-server/11-02-ms-trace-zipkin-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-03-ms-simple-provider-user-trace-zipkin/11-03-ms-simple-provider-user-trace-zipkin.iml" filepath="$PROJECT_DIR$/11-03-ms-simple-provider-user-trace-zipkin/11-03-ms-simple-provider-user-trace-zipkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/11-04-ms-simple-consumer-order-trace-zipkin/11-04-ms-simple-consumer-order-trace-zipkin.iml" filepath="$PROJECT_DIR$/11-04-ms-simple-consumer-order-trace-zipkin/11-04-ms-simple-consumer-order-trace-zipkin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-01-springboot/src/main/main.iml" filepath="$PROJECT_DIR$/01-01-springboot/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-01-eureka-server-1/target/maven-archiver/maven-archiver (1).iml" filepath="$PROJECT_DIR$/04-01-eureka-server-1/target/maven-archiver/maven-archiver (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-01-eureka-server-2/target/maven-archiver/maven-archiver (2).iml" filepath="$PROJECT_DIR$/04-01-eureka-server-2/target/maven-archiver/maven-archiver (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/04-01-eureka-server-3/target/maven-archiver/maven-archiver (3).iml" filepath="$PROJECT_DIR$/04-01-eureka-server-3/target/maven-archiver/maven-archiver (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-08-ms-provider-user/target/maven-archiver/maven-archiver (4).iml" filepath="$PROJECT_DIR$/05-08-ms-provider-user/target/maven-archiver/maven-archiver (4).iml" />
+      <module fileurl="file://$PROJECT_DIR$/05-09-ms-consumer-order-feign/target/maven-archiver/maven-archiver (5).iml" filepath="$PROJECT_DIR$/05-09-ms-consumer-order-feign/target/maven-archiver/maven-archiver (5).iml" />
+      <module fileurl="file://$PROJECT_DIR$/08-03-ms-eureka-server-ha/target/maven-archiver/maven-archiver (6).iml" filepath="$PROJECT_DIR$/08-03-ms-eureka-server-ha/target/maven-archiver/maven-archiver (6).iml" />
+      <module fileurl="file://$PROJECT_DIR$/01-01-springboot/src/test/test.iml" filepath="$PROJECT_DIR$/01-01-springboot/src/test/test.iml" />
+    </modules>
+  </component>
+</project>

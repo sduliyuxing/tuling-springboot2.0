@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="JavaScriptSettings">
+    <option name="languageLevel" value="ES6" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/03-01-ms-user/pom.xml" />
+        <option value="$PROJECT_DIR$/04-02-ms-user/pom.xml" />
+        <option value="$PROJECT_DIR$/03-02-ms-order/pom.xml" />
+        <option value="$PROJECT_DIR$/04-03-ms-order/pom.xml" />
+        <option value="$PROJECT_DIR$/01-01-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/01-02-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/01-03-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/03-03-vip-springboot/pom.xml" />
+        <option value="$PROJECT_DIR$/04-01-eureka-server-1/target/maven-archiver/pom.properties" />
+        <option value="$PROJECT_DIR$/04-01-eureka-server-1/pom.xml" />
+        <option value="$PROJECT_DIR$/04-01-eureka-server-2/target/maven-archiver/pom.properties" />
+        <option value="$PROJECT_DIR$/04-01-eureka-server-2/pom.xml" />
+        <option value="$PROJECT_DIR$/04-01-eureka-server-3/target/maven-archiver/pom.properties" />
+        <option value="$PROJECT_DIR$/04-01-eureka-server-3/pom.xml" />
+        <option value="$PROJECT_DIR$/09-03-ms-gateway-zuul/pom.xml" />
+        <option value="$PROJECT_DIR$/05-01-ms-provider-user/pom.xml" />
+        <option value="$PROJECT_DIR$/05-08-ms-provider-user/target/maven-archiver/pom.properties" />
+        <option value="$PROJECT_DIR$/05-08-ms-provider-user/pom.xml" />
+        <option value="$PROJECT_DIR$/06-01-ms-provider-user/pom.xml" />
+        <option value="$PROJECT_DIR$/07-01-ms-provider-user/pom.xml" />
+        <option value="$PROJECT_DIR$/08-01-ms-provider-user/pom.xml" />
+        <option value="$PROJECT_DIR$/09-01-ms-provider-user/pom.xml" />
+        <option value="$PROJECT_DIR$/10-01-ms-config-server/pom.xml" />
+        <option value="$PROJECT_DIR$/10-02-ms-config-client/pom.xml" />
+        <option value="$PROJECT_DIR$/07-06-ms-hystrix-turbine/pom.xml" />
+        <option value="$PROJECT_DIR$/08-02-ms-springboot-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/08-03-ms-eureka-server-ha/target/maven-archiver/pom.properties" />
+        <option value="$PROJECT_DIR$/08-03-ms-eureka-server-ha/pom.xml" />
+        <option value="$PROJECT_DIR$/05-07-ms-provider-user-api/pom.xml" />
+        <option value="$PROJECT_DIR$/07-05-ms-hystrix-dashboard/pom.xml" />
+        <option value="$PROJECT_DIR$/09-05-ms-gateway-zuul-filter/pom.xml" />
+        <option value="$PROJECT_DIR$/11-02-ms-trace-zipkin-server/pom.xml" />
+        <option value="$PROJECT_DIR$/05-06-ms-consumer-order-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/05-09-ms-consumer-order-feign/target/maven-archiver/pom.properties" />
+        <option value="$PROJECT_DIR$/05-09-ms-consumer-order-feign/pom.xml" />
+        <option value="$PROJECT_DIR$/10-09-ms-config-server-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/10-10-ms-config-client-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/05-02-ms-consumer-order-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/09-02-ms-consumer-order-ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/09-06-ms-gateway-zuul-fallback/pom.xml" />
+        <option value="$PROJECT_DIR$/10-04-ms-config-client-refresh/pom.xml" />
+        <option value="$PROJECT_DIR$/09-04-ms-gateway-zuul-aggregation/pom.xml" />
+        <option value="$PROJECT_DIR$/10-03-ms-config-server-encryption/pom.xml" />
+        <option value="$PROJECT_DIR$/11-01-ms-simple-provider-user-trace/pom.xml" />
+        <option value="$PROJECT_DIR$/10-07-ms-config-server-authenticating/pom.xml" />
+        <option value="$PROJECT_DIR$/10-08-ms-config-client-authenticating/pom.xml" />
+        <option value="$PROJECT_DIR$/07-04-ms-consumer-order-hystrix-stream/pom.xml" />
+        <option value="$PROJECT_DIR$/10-05-ms-config-server-refresh-cloud-bus/pom.xml" />
+        <option value="$PROJECT_DIR$/10-06-ms-config-client-refresh-cloud-bus/pom.xml" />
+        <option value="$PROJECT_DIR$/05-03-ms-consumer-order-ribbon-customizing/pom.xml" />
+        <option value="$PROJECT_DIR$/11-03-ms-simple-provider-user-trace-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/11-04-ms-simple-consumer-order-trace-zipkin/pom.xml" />
+        <option value="$PROJECT_DIR$/05-05-ms-consumer-order-ribbon-without-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/06-04-ms-consumer-order-ribbon-hystrix-fusing/pom.xml" />
+        <option value="$PROJECT_DIR$/07-03-ms-consumer-order-feign-disable-hystrix/pom.xml" />
+        <option value="$PROJECT_DIR$/07-02-ms-consumer-order-feign-hystrix-fallback/pom.xml" />
+        <option value="$PROJECT_DIR$/06-03-ms-consumer-order-ribbon-hystrix-fallback/pom.xml" />
+        <option value="$PROJECT_DIR$/06-02-ms-consumer-order-ribbon-hystrix-customizing/pom.xml" />
+        <option value="$PROJECT_DIR$/05-04-ms-consumer-order-ribbon-customizing-properties/pom.xml" />
+        <option value="$PROJECT_DIR$/06-05-ms-consumer-order-ribbon-hystrix-thread-isolation/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

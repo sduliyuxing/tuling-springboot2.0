@@ -1,0 +1,11 @@
+server:
+  port: 8010
+spring:
+  application:
+    name: microservice-consumer-order
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://biege:123@127.0.0.1:8761/eureka,http://biege:123@127.0.0.1:8762/eureka,http://biege:123@127.0.0.1:8763/eureka
+  instance:
+    prefer-ip-address: true

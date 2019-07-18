@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="01-01-springboot" />
+        <module name="01-02-springboot" />
+        <module name="01-03-springboot" />
+        <module name="03-01-ms-user" />
+        <module name="03-02-ms-order" />
+        <module name="03-03-vip-springboot" />
+        <module name="04-01-eureka-server-1" />
+        <module name="04-01-eureka-server-2" />
+        <module name="04-01-eureka-server-3" />
+        <module name="04-02-ms-user" />
+        <module name="04-03-ms-order" />
+        <module name="05-01-ms-provider-user" />
+        <module name="05-02-ms-consumer-order-ribbon" />
+        <module name="05-03-ms-consumer-order-ribbon-customizing" />
+        <module name="05-04-ms-consumer-order-ribbon-customizing-properties" />
+        <module name="05-05-ms-consumer-order-ribbon-without-eureka" />
+        <module name="05-06-ms-consumer-order-feign" />
+        <module name="05-07-ms-provider-user-api" />
+        <module name="05-08-ms-provider-user" />
+        <module name="05-09-ms-consumer-order-feign" />
+        <module name="06-01-ms-provider-user" />
+        <module name="06-02-ms-consumer-order-ribbon-hystrix-customizing" />
+        <module name="06-03-ms-consumer-order-ribbon-hystrix-fallback" />
+        <module name="06-04-ms-consumer-order-ribbon-hystrix-fusing" />
+        <module name="06-05-ms-consumer-order-ribbon-hystrix-thread-isolation" />
+        <module name="07-01-ms-provider-user" />
+        <module name="07-02-ms-consumer-order-feign-hystrix-fallback" />
+        <module name="07-03-ms-consumer-order-feign-disable-hystrix" />
+        <module name="07-04-ms-consumer-order-hystrix-stream" />
+        <module name="07-05-ms-hystrix-dashboard" />
+        <module name="07-06-ms-hystrix-turbine" />
+        <module name="08-01-ms-provider-user" />
+        <module name="08-02-ms-springboot-admin" />
+        <module name="08-03-ms-eureka-server-ha" />
+        <module name="09-01-ms-provider-user" />
+        <module name="09-02-ms-consumer-order-ribbon" />
+        <module name="09-03-ms-gateway-zuul" />
+        <module name="09-04-ms-gateway-zuul-aggregation" />
+        <module name="09-05-ms-gateway-zuul-filter" />
+        <module name="09-06-ms-gateway-zuul-fallback" />
+        <module name="10-01-ms-config-server" />
+        <module name="10-02-ms-config-client" />
+        <module name="10-03-ms-config-server-encryption" />
+        <module name="10-04-ms-config-client-refresh" />
+        <module name="10-05-ms-config-server-refresh-cloud-bus" />
+        <module name="10-06-ms-config-client-refresh-cloud-bus" />
+        <module name="10-07-ms-config-server-authenticating" />
+        <module name="10-08-ms-config-client-authenticating" />
+        <module name="10-09-ms-config-server-eureka" />
+        <module name="10-10-ms-config-client-eureka" />
+        <module name="11-01-ms-simple-provider-user-trace" />
+        <module name="11-02-ms-trace-zipkin-server" />
+        <module name="11-03-ms-simple-provider-user-trace-zipkin" />
+        <module name="11-04-ms-simple-consumer-order-trace-zipkin" />
+        <module name="maven-archiver (1)" />
+        <module name="maven-archiver (2)" />
+        <module name="maven-archiver (3)" />
+        <module name="maven-archiver (4)" />
+        <module name="maven-archiver (5)" />
+        <module name="maven-archiver (6)" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="01-01-springboot" target="1.8" />
+      <module name="01-02-springboot" target="1.8" />
+      <module name="01-03-springboot" target="1.8" />
+      <module name="03-01-ms-user" target="1.8" />
+      <module name="03-02-ms-order" target="1.8" />
+      <module name="03-03-vip-springboot" target="1.8" />
+      <module name="04-01-eureka-server-1" target="1.8" />
+      <module name="04-01-eureka-server-2" target="1.8" />
+      <module name="04-01-eureka-server-3" target="1.8" />
+      <module name="04-02-ms-user" target="1.8" />
+      <module name="04-03-ms-order" target="1.8" />
+      <module name="05-01-ms-provider-user" target="1.8" />
+      <module name="05-02-ms-consumer-order-ribbon" target="1.8" />
+      <module name="05-03-ms-consumer-order-ribbon-customizing" target="1.8" />
+      <module name="05-04-ms-consumer-order-ribbon-customizing-properties" target="1.8" />
+      <module name="05-05-ms-consumer-order-ribbon-without-eureka" target="1.8" />
+      <module name="05-06-ms-consumer-order-feign" target="1.8" />
+      <module name="05-07-ms-provider-user-api" target="1.8" />
+      <module name="05-08-ms-provider-user" target="1.8" />
+      <module name="05-09-ms-consumer-order-feign" target="1.8" />
+      <module name="06-01-ms-provider-user" target="1.8" />
+      <module name="06-02-ms-consumer-order-ribbon-hystrix-customizing" target="1.8" />
+      <module name="06-03-ms-consumer-order-ribbon-hystrix-fallback" target="1.8" />
+      <module name="06-04-ms-consumer-order-ribbon-hystrix-fusing" target="1.8" />
+      <module name="06-05-ms-consumer-order-ribbon-hystrix-thread-isolation" target="1.8" />
+      <module name="07-01-ms-provider-user" target="1.8" />
+      <module name="07-02-ms-consumer-order-feign-hystrix-fallback" target="1.8" />
+      <module name="07-03-ms-consumer-order-feign-disable-hystrix" target="1.8" />
+      <module name="07-04-ms-consumer-order-hystrix-stream" target="1.8" />
+      <module name="07-05-ms-hystrix-dashboard" target="1.8" />
+      <module name="07-06-ms-hystrix-turbine" target="1.8" />
+      <module name="08-01-ms-provider-user" target="1.8" />
+      <module name="08-02-ms-springboot-admin" target="1.8" />
+      <module name="08-03-ms-eureka-server-ha" target="1.8" />
+      <module name="09-01-ms-provider-user" target="1.8" />
+      <module name="09-02-ms-consumer-order-ribbon" target="1.8" />
+      <module name="09-03-ms-gateway-zuul" target="1.8" />
+      <module name="09-04-ms-gateway-zuul-aggregation" target="1.8" />
+      <module name="09-05-ms-gateway-zuul-filter" target="1.8" />
+      <module name="09-06-ms-gateway-zuul-fallback" target="1.8" />
+      <module name="10-01-ms-config-server" target="1.8" />
+      <module name="10-02-ms-config-client" target="1.8" />
+      <module name="10-03-ms-config-server-encryption" target="1.8" />
+      <module name="10-04-ms-config-client-refresh" target="1.8" />
+      <module name="10-05-ms-config-server-refresh-cloud-bus" target="1.8" />
+      <module name="10-06-ms-config-client-refresh-cloud-bus" target="1.8" />
+      <module name="10-07-ms-config-server-authenticating" target="1.8" />
+      <module name="10-08-ms-config-client-authenticating" target="1.8" />
+      <module name="10-09-ms-config-server-eureka" target="1.8" />
+      <module name="10-10-ms-config-client-eureka" target="1.8" />
+      <module name="11-01-ms-simple-provider-user-trace" target="1.8" />
+      <module name="11-02-ms-trace-zipkin-server" target="1.8" />
+      <module name="11-03-ms-simple-provider-user-trace-zipkin" target="1.8" />
+      <module name="11-04-ms-simple-consumer-order-trace-zipkin" target="1.8" />
+      <module name="maven-archiver (1)" target="1.5" />
+      <module name="maven-archiver (2)" target="1.5" />
+      <module name="maven-archiver (3)" target="1.5" />
+      <module name="maven-archiver (4)" target="1.5" />
+      <module name="maven-archiver (5)" target="1.5" />
+      <module name="maven-archiver (6)" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

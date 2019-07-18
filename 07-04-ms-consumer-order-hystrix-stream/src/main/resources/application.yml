@@ -1,0 +1,24 @@
+server:
+  port: 8020
+spring:
+  application:
+    name: microservice-consumer-order-hystrix-stream
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://biege:123@127.0.0.1:8761/eureka,http://biege:123@127.0.0.1:8762/eureka,http://biege:123@127.0.0.1:8763/eureka
+  instance:
+    prefer-ip-address: true
+
+feign:
+  hystrix:
+    enabled: true
+# 说明：请务必注意，从Spring Cloud Dalston开始，Feign默认是不开启Hystrix的。
+# 因此，如使用Dalston请务必额外设置属性：feign.hystrix.enabled=true，否则断路器不会生效。
+# 而，Spring Cloud Angel/Brixton/Camden中，Feign默认都是开启Hystrix的。无需设置该属性。
+
+
+
+
+
+

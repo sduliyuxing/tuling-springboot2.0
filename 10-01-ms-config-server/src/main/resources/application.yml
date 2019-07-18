@@ -1,0 +1,81 @@
+server:
+  port: 12000
+spring:
+  application:
+    name: microservice-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/bieshengping/tuling-springcloud-config-server.git
+
+################################################
+#  测试 过程:
+#    在github 上 , 创建tuling-springcloud-config-server仓库
+#    master分支上传4个配置文件,  1.0版本
+#        ms-config.properties
+#        ms-config-dev.properties
+#        ms-config-production.properties
+#        ms-config-test.properties
+#        命名规范:  {10-02-ms-config-client服务名}-{环境}.properties
+#    创建config-label-v2.0分支
+#    config-label-v2.0分支上,上传 3个配置文件,2.0版本
+#
+#  启动10-01-ms-config-server服务
+#  访问:
+#        http://localhost:12000/ms-config-dev.yml
+#              显示:   profile: dev-1.0
+#        http://localhost:12000/master/ms-config-dev.yml
+#              显示:   profile: dev-1.0
+#        http://localhost:12000/config-label-v2.0/ms-config-dev.yml
+#              显示:   profile: dev-2.0
+#        http://localhost:12000/ms-config/dev
+#              显示:
+#                {
+#                	name: "ms-config",
+#                	profiles: [
+#                		"dev"
+#                	],
+#                	label: null,
+#                	version: "58b110131fbf998e9090a83c5c335f525d86eae0",
+#                	state: null,
+#                	propertySources: [{
+#                			name: "https://github.com/bieshengping/tuling-springcloud-config-server.git/ms-config-dev.properties",
+#                			source: {
+#                				profile: "dev-1.0"
+#                			}
+#                		},
+#                		{
+#                			name: "https://github.com/bieshengping/tuling-springcloud-config-server.git/ms-config.properties",
+#                			source: {
+#                				profile: "default-1.0"
+#                			}
+#                		}
+#                	]
+#                }
+#        http://localhost:12000/ms-config/dev/config-label-v2.0
+#              显示:
+#              {
+#                  name: "ms-config",
+#                  profiles: [
+#                      "dev"
+#                  ],
+#                  label: "config-label-v2.0",
+#                  version: "41b7dc33088bd36ffe8686a07e18cc4a1844aadd",
+#                  state: null,
+#                  propertySources: [{
+#                      name: "https://github.com/bieshengping/tuling-springcloud-config-server.git/ms-config-dev.properties",
+#                      source: {
+#                          profile: "dev-2.0"
+#                      }
+#                  }]
+#              }
+
+
+
+
+
+
+
+
+
